@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+
+    <link rel="stylesheet" href="../css/styleFaq.css">
+    <link rel="shortcut icon" href="../img/logoImrea.jpg">
+</head>
+<body>
+
+    <header>
+        <h1>Perguntas Frequentes</h1>
+        <img src="../img/logoImrea.jpg" alt="Logo do IMREA" class="logo-header">
+        <nav>
+            <ul>
+                <li><a href="./solucao.html">A solução proposta pelo nosso time!</a></li>
+                <li><a href="./integrantes.html">Conheça os integrantes</a></li>
+                <li><a href="../home.html">Home</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+            </ul>
+        </nav>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script>
+     window.watsonAssistantChatOptions = {
+        integrationID: "4db393c2-4eff-404b-b27b-78910baa64c8", // The ID of this integration.
+        region: "au-syd", // The region your integration is hosted in.
+        serviceInstanceID: "bfc1262a-62ad-4327-8242-ac7844ca51c3", // The ID of your service instance.
+        onLoad: async (instance) => { await instance.render(); }
+    };
+    setTimeout(function(){
+        const t=document.createElement('script');
+        t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+        document.head.appendChild(t);
+    });
+    </script>
+
+    </header>
+
+    <main>
+        <h2>Perguntas Frequentes</h2>
+
+        <div class="faq">
+            <div class="faq-item">
+                <h3>O que é o IMREA?</h3>
+                <p>O IMREA (Instituto de Medicina Física e Reabilitação) é uma instituição de saúde especializada em reabilitação física e medicina física.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Como posso entrar em contato com o IMREA?</h3>
+                <p>Você pode entrar em contato através do nosso site ou pelo telefone disponível na seção de contato.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Quais serviços o IMREA oferece?</h3>
+                <p>O IMREA oferece uma variedade de serviços, incluindo consultas médicas, fisioterapia, terapia ocupacional e muito mais.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Como posso agendar uma consulta?</h3>
+                <p>Você pode agendar uma consulta através do nosso site, entrando em contato com nossa equipe de atendimento ou diretamente com nosso Bot de atendimento.</p>
+            </div>
+            <div class="faq-item">
+                <h3>O que devo levar para a consulta?</h3>
+                <p>Recomendamos que você leve seus documentos pessoais, exames anteriores e qualquer outra informação relevante sobre sua saúde.</p>
+            </div>
+            <div class="faq-item">
+                <h3>O IMREA aceita convênios?</h3>
+                <p>Sim, o IMREA aceita diversos convênios. Consulte nossa equipe de atendimento para mais informações.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Como posso acessar meu histórico médico?</h3>
+                <p>Você pode acessar seu histórico médico através do nosso portal online, onde você encontrará todas as informações sobre suas consultas e tratamentos.</p> 
+            </div>
+            <div class="faq-item">
+                <h3>O IMREA oferece atendimento domiciliar?</h3>
+                <p>Sim, o IMREA oferece serviços de atendimento domiciliar para pacientes que não podem se deslocar até a instituição.</p>      
+            </div>
+        </div>    
+
+        <p>
+            Se você tiver mais perguntas ou precisar de mais informações, não hesite em entrar em contato conosco. Nosso ChatBot está sempre disponível para ajudar!
+        </p>
+
+        <p>
+            Aproveite também para conhecer nossas redes sociais e ficar por dentro de todas as novidades do IMREA.
+        </p>
+
+    </main>
+
+    <footer>
+        <p>Todos os direitos reservados <span>2025</span>&copy;</p>
+    </footer>
+    
+</body>
+</html>

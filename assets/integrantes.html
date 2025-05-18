@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INTEGRANTES</title>
+
+    <link rel="stylesheet" href="../css/styleIntegrantes.css">
+    <link rel="shortcut icon" href="../img/logoImrea.jpg">
+
+
+</head>
+
+<body>
+
+    <header>
+      <h1>INTEGRANTES</h1>
+      <img src="../img/logoImrea.jpg" alt="Logo do IMREA" class="logo-header">
+      <nav>
+        <ul>
+          <li><a href="../assets/solucao.html">A solução proposta pelo nosso time!</a></li>
+          <li><a href="../assets/faq.html">FAQ</a></li>
+          <li><a href="../home.html">Home</a></li>
+          <li><a href="./assets/contato.html">Contato</a></li>
+        </ul>
+      </nav>
+
+
+    <script>
+     window.watsonAssistantChatOptions = {
+        integrationID: "4db393c2-4eff-404b-b27b-78910baa64c8", // The ID of this integration.
+        region: "au-syd", // The region your integration is hosted in.
+        serviceInstanceID: "bfc1262a-62ad-4327-8242-ac7844ca51c3", // The ID of your service instance.
+        onLoad: async (instance) => { await instance.render(); }
+    };
+    setTimeout(function(){
+        const t=document.createElement('script');
+        t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+        document.head.appendChild(t);
+    });
+    </script>
+
+    </header>
+    
+    <main>
+
+        <h2>Conheça os integrantes da nossa equipe!</h2>
+
+        <div class="integrantes">
+            <div class="integrante">
+                <img src="../img/joao.jpg" alt="João">
+                <h3>João</h3>
+                <p>Desenvolvedor Frontend</p>
+                <p>PO (Product Owner)</p>
+            </div>
+
+            <div class="integrante">
+                <img src="../img/logoHc.jpg" alt="André">
+                <h3>André</h3>
+                <p>Desenvolvedor Frontend</p>
+            </div>
+
+            <div class="integrante">
+                <img src="../img/logoImrea.jpg" alt="André">
+                <h3>André</h3>
+                <p>Desenvolvedor Frontend</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Todos os direitos reservados <span>2025</span>&copy;</p>
+</body>
+</html>
